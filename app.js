@@ -252,7 +252,14 @@ const mostrarCarrito = ()=>{
 
 }
 
-
+function borrarProd() {
+    if (visto = true) {
+        while (mostrarProd.firstChild) {
+            mostrarProd.removeChild(mostrarProd.firstChild);
+        }
+        visto = false;
+    }
+}
 
 
 //EVENTOS
